@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	font-family: cursive;
+	text-align: center;
+	font-weight: bold;
+}
+body {
+	background-color: rgb(184, 209, 206);
+}
+h1 {
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%;
+	
+}
+
+
+.mero {
+	position: relative;
+	border: 1px solid black;
+	width: 99%;
+	margin: 1%;
+}
+
+
+.title{
+	border: 1px solid black;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#titel1 {
+	float: cwnter;
+	width: auto;
+	padding: 5px;
+	margin: 0px;
+	background-color: rgb(213, 179, 128);
+	
+}
+#titel2 {
+	float: center;
+	width: auto;
+	padding: 5px;
+	margin: 0px;
+	background-color: rgb(98, 102, 214);
+	
+}
+#titel3 {
+
+	float: center;
+	width: auto;
+	padding: 5px;
+	margin: 0px;
+	background-color: rgb(166, 137, 199);
+	
+}
+.text {
+	padding: 1px;
+	border: none;
+	background-color: rgb(43, 135, 12);
+	color: black;
+	height: auto;
+	overflow: auto;
+	clear: right;
+}
+
+.row {
+	width: 90%;
+}
+
+/*desktop version*/
+@media (min-width: 992px){
+	.navbar-toggler-icon{
+        display: none;
+    }
+    .box {
+		float: left;
+		width: 33.33%;
+	}
+}
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px){
+	.box {
+		float: left;
+		width: 50%;
+
+	}
+	#box3 {
+		width: 100%;
+	}
+}
+/*mobile version*/
+@media (max-width: 767px){
+	.box {
+		float: left;
+		width: 100%;
+	}
+}
